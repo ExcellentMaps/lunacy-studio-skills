@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════
+GUARD SECURITY SUITE — ATTRIBUTION NOTICE
+════════════════════════════════════════════════════════════════════════
+
+Author:    ExcellentMaps
+URL:       https://github.com/ExcellentMaps
+Copyright: (c) 2026 ExcellentMaps. All rights reserved.
+License:   CC BY-ND 4.0 (see LICENSE)
+Suite ID:  guard-security-suite
+Version:   1.0
+
+────────────────────────────────────────────────────────────────────────
+COMPONENTS COVERED BY THIS NOTICE
+────────────────────────────────────────────────────────────────────────
+
+  security-guard/     Entry point, seven-layer model, plan and reporting
+  guard-audit/        Audit engine, 12 blocks, three scripts
+  guard-auth/         Login, passwords, sessions, 2FA, roles
+  guard-data/         Database grants, RLS, PII, audit log, backups
+  guard-server/       Perimeter, TLS, headers, firewall, secrets
+  guard-frontend/     XSS, cookies, storage, dependencies
+  guard-ai-policy/    AI and bot policy, templates, blocking
+
+  README.md, README.ru.md, LICENSE, NOTICE, verify-integrity.sh
+
+────────────────────────────────────────────────────────────────────────
+REQUIRED ATTRIBUTION
+────────────────────────────────────────────────────────────────────────
+
+When redistributing this suite, in whole or in part, you must retain:
+
+  1. This NOTICE file, unmodified.
+  2. The LICENSE file, unmodified.
+  3. The `metadata.author`, `metadata.author_url` and `metadata.copyright`
+     fields in the YAML front matter of every SKILL.md.
+  4. The HTML attribution comment in the body of every SKILL.md.
+  5. The copyright headers inside template and script files.
+
+Removing any of the above is a breach of the license, regardless of
+whether the rest of the material is otherwise unchanged.
+
+────────────────────────────────────────────────────────────────────────
+MODIFICATION
+────────────────────────────────────────────────────────────────────────
+
+You may adapt a private copy for your own use.
+You may NOT publish or redistribute a modified copy.
+
+If you want a modified version distributed publicly, or want to include
+this suite in a larger distributed work, request written permission
+from the author: https://github.com/ExcellentMaps
+
+────────────────────────────────────────────────────────────────────────
+VERIFYING AN UNMODIFIED COPY
+────────────────────────────────────────────────────────────────────────
+
+Run:  bash verify-integrity.sh
+
+The script compares every file against the checksums recorded in
+SHA256SUMS and reports anything added, removed or altered. Use it to
+confirm that a copy you received is the original, unmodified suite.
+
+════════════════════════════════════════════════════════════════════════

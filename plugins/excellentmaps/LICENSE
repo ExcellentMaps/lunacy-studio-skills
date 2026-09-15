@@ -1,0 +1,77 @@
+Guard Security Suite
+Copyright (c) 2026 ExcellentMaps
+https://github.com/ExcellentMaps
+
+════════════════════════════════════════════════════════════════════════
+Creative Commons Attribution-NoDerivatives 4.0 International
+(CC BY-ND 4.0)
+════════════════════════════════════════════════════════════════════════
+
+This work is licensed under the Creative Commons
+Attribution-NoDerivatives 4.0 International License.
+
+To view the full legal code of this license, visit:
+    https://creativecommons.org/licenses/by-nd/4.0/legalcode
+Human-readable summary:
+    https://creativecommons.org/licenses/by-nd/4.0/
+
+
+YOU ARE FREE TO
+────────────────────────────────────────────────────────────────────────
+  Share      Copy and redistribute the material in any medium or format,
+             including for commercial purposes.
+
+  Use        Apply this suite in your own work, on any number of projects,
+             for your own systems and for client systems, commercially
+             or otherwise. Output produced with the help of these skills
+             (audit reports, configuration files, code changes) belongs
+             to you and is not covered by this license.
+
+
+UNDER THE FOLLOWING TERMS
+────────────────────────────────────────────────────────────────────────
+  Attribution     You must give appropriate credit to ExcellentMaps
+                  (https://github.com/ExcellentMaps), provide a link to
+                  this license, and indicate the origin of the material.
+                  Author attribution in SKILL.md front matter, in file
+                  headers, in NOTICE and in README must remain intact.
+
+  NoDerivatives   If you remix, transform, or build upon the material,
+                  you may not distribute the modified material.
+                  You may modify a copy for your own private use; you
+                  may not publish, share, or redistribute that modified
+                  copy, under this name or any other.
+
+  No additional   You may not apply legal terms or technological measures
+  restrictions    that legally restrict others from doing anything this
+                  license permits.
+
+
+SPECIFICALLY NOT PERMITTED
+────────────────────────────────────────────────────────────────────────
+  - Republishing this suite, in whole or in part, under a different name,
+    brand, or author.
+  - Removing or altering author attribution, copyright notices, the
+    NOTICE file, or the license headers inside SKILL.md files.
+  - Presenting this suite, or a renamed copy of it, as your own work.
+  - Distributing modified versions publicly, including on skill
+    marketplaces, plugin registries, or package managers.
+
+
+DISCLAIMER
+────────────────────────────────────────────────────────────────────────
+This material is provided "as is", without warranty of any kind, express
+or implied. It is guidance for securing software, not a guarantee of
+security. No software can be made unbreakable. The author is not liable
+for any claim, damage, data loss, service interruption, or other
+liability arising from the use of this material.
+
+Security changes affect production systems. Always take a backup before
+applying a change, verify after applying it, and keep a way back.
+
+
+CONTACT
+────────────────────────────────────────────────────────────────────────
+For permissions beyond the scope of this license, including permission
+to distribute a modified version, contact the author:
+https://github.com/ExcellentMaps

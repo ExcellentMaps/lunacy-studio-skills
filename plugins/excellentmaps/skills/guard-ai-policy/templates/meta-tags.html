@@ -1,0 +1,26 @@
+<!--
+  Мета-теги ИИ-политики — вставить в <head> каждой страницы.
+  Guard Security Suite © ExcellentMaps — github.com/ExcellentMaps
+
+  ВАЖНО: мета-теги работают только для HTML-страниц. Картинки, PDF
+  и выгрузки ими не закрываются — для них нужен заголовок сервера
+  X-Robots-Tag (см. nginx-ai-headers.conf). Ставьте оба.
+-->
+
+<!-- Запрет индексации и архивирования -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+
+<!-- Запрет обучения моделей на содержимом страницы -->
+<meta name="robots" content="noai, noimageai" />
+
+<!-- Адресно для основных ИИ-краулеров -->
+<meta name="GPTBot" content="noindex, nofollow" />
+<meta name="ClaudeBot" content="noindex, nofollow" />
+<meta name="PerplexityBot" content="noindex, nofollow" />
+<meta name="Google-Extended" content="noindex, nofollow" />
+<meta name="CCBot" content="noindex, nofollow" />
+
+<!-- Статус доступа: частная система -->
+<meta name="access-policy" content="private; authorized-users-only" />
+<link rel="ai-policy" href="/llms.txt" />
+<link rel="license" href="/legal/terms" />

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "excellentmaps",
+  "displayName": "Guard Security Suite",
+  "version": "1.0.0",
+  "description": "Seven security skills for Claude Code. Audits any web project or CRM, ranks the findings, explains them in plain language, and closes them one layer at a time with a verification and a rollback for each. English by default, switches language on request.",
+  "author": {
+    "name": "ExcellentMaps",
+    "url": "https://github.com/ExcellentMaps"
+  },
+  "homepage": "https://github.com/ExcellentMaps/lunacy-studio-skills",
+  "repository": "https://github.com/ExcellentMaps/lunacy-studio-skills",
+  "license": "CC-BY-ND-4.0",
+  "keywords": [
+    "security",
+    "audit",
+    "crm",
+    "hardening",
+    "owasp",
+    "nginx",
+    "csp",
+    "rls",
+    "llms-txt",
+    "anti-scraping",
+    "incident-response"
+  ],
+  "metadata": {
+    "suite": "guard-security-suite",
+    "copyright": "© ExcellentMaps. All rights reserved.",
+    "skillCount": 7
+  }
+}

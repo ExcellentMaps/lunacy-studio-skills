@@ -1,0 +1,58 @@
+# ai.txt — политика использования ИИ для {{ДОМЕН}}
+# Формат: draft-car-ai-txt-wellknown (IETF), блочный key-value в стиле robots.txt
+# Отдавать с заголовком: Content-Type: text/plain; charset=utf-8
+# Шаблон Guard Security Suite © ExcellentMaps — github.com/ExcellentMaps
+#
+# ВАРИАНТ ДЛЯ ЗАКРЫТОЙ СИСТЕМЫ: запрещено всё.
+
+Site-Name: {{НАЗВАНИЕ_СИСТЕМЫ}}
+Site-URL: https://{{ДОМЕН}}
+
+# ── Общая политика ─────────────────────────────────────────────
+Training: deny
+Scraping: deny
+Indexing: deny
+Caching: deny
+
+# ── Правила по агентам ─────────────────────────────────────────
+# Доступ по умолчанию закрыт для всех автоматических клиентов.
+Agent: *
+  Training: deny
+  Scraping: deny
+  Indexing: deny
+  Caching: deny
+  Rate-Limit: 0
+
+Agent: GPTBot
+  Training: deny
+  Scraping: deny
+
+Agent: ClaudeBot
+  Training: deny
+  Scraping: deny
+
+Agent: PerplexityBot
+  Training: deny
+  Scraping: deny
+
+Agent: Google-Extended
+  Training: deny
+
+Agent: CCBot
+  Training: deny
+  Scraping: deny
+
+Agent: Bytespider
+  Training: deny
+  Scraping: deny
+
+Agent: Meta-ExternalAgent
+  Training: deny
+  Scraping: deny
+
+# ── Правовой статус ────────────────────────────────────────────
+# Сервис является частной системой. Доступ — только по именным учётным
+# данным, выданным владельцем. Любой иной доступ не авторизован.
+Attribution: required
+Contact: {{EMAIL_ДОСТУП}}
+Policy-URL: https://{{ДОМЕН}}/llms.txt

@@ -1,0 +1,6 @@
+{
+  "_комментарий": "TDM Reservation Protocol (W3C) — резервирование прав на текстовый и дата-майнинг. Шаблон Guard Security Suite (c) ExcellentMaps. Отдавать с Content-Type: application/json",
+  "tdm-reservation": 1,
+  "tdm-policy": "https://{{ДОМЕН}}/llms.txt",
+  "location": "/"
+}

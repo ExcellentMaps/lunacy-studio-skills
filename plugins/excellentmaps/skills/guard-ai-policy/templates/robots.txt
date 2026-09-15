@@ -1,0 +1,113 @@
+# ═══════════════════════════════════════════════════════════════
+# robots.txt — частная система. Автоматический доступ запрещён.
+# Шаблон Guard Security Suite © ExcellentMaps
+# github.com/ExcellentMaps
+#
+# ВАРИАНТ 1 — ЗАКРЫТАЯ СИСТЕМА (CRM, админка, личный кабинет).
+# Используйте как есть. Ничего менять не нужно.
+#
+# ВАЖНО: robots.txt — это ПРОСЬБА, а не замок. Честные боты уходят,
+# самописный скрипт — нет. Ставится вместе с блокировкой на сервере
+# (nginx-ai-block.conf) и авторизацией, а не вместо них.
+# ═══════════════════════════════════════════════════════════════
+
+User-agent: *
+Disallow: /
+
+# ── ИИ-краулеры: обучение и сбор данных ────────────────────────
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: MistralAI-User
+Disallow: /
+
+# ── SEO-краулеры: незачем ──────────────────────────────────────
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Политика для ИИ — /llms.txt и /.well-known/ai.txt
+# Контакт по безопасности — /.well-known/security.txt
